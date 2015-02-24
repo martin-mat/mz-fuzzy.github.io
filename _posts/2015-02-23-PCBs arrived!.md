@@ -7,7 +7,7 @@ Recently I've spend my free time working on [RF24Remote](https://github.com/mz-f
 
 ![Panelized PCBs]({{ site.url }}/assets/Panelized_PCBs_RF24Remote.jpg "Panelized PCBs")
 
-#### H4 Boards there:
+#### Boards there:
 
 1. RF24VUSB 0.9z: Basic board for RF24Remote with VUSB. Uses VUSB variant with level conversion using zener diodes. Utilizes ATMega328p on 5V/20MHz. Double nRF24l01 headers, both 8 and 10 pin sockets. 3 LEDs. ICSP, FTDI headers, plus additional header with some GPIO pins. Reset button and one additional button intended for FW flash initiation via VUSB.
 2. RF24VUSB 0.9: same as (1.) except of VUSB connection - supply voltage is reduced to 3.3V. Crystal expected to be 12MHz.
@@ -17,7 +17,7 @@ Recently I've spend my free time working on [RF24Remote](https://github.com/mz-f
 6. Bread Helper board: a helper for my breadboard prototyping. Micro usb for power and VUSB connections, 2 buttons, 2 LEDs, 3.3V/5V select, crustal socket.
 7. nRF24l01 convertor: converts 10-pin nRF24l01 modules to 8-pin socket + adds capacitor.
 
-#### H4 Some points to the boards:
+#### Some points to the boards:
 
 * DirtyPCBs announce that the number of boards are 8-12. For me it was 10.
 * Looking closer to PCB quality, they are really kind of 'dirty'. But it seems that they are ok from functinality point of view.
