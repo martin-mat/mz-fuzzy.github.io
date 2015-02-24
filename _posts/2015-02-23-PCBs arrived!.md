@@ -28,7 +28,7 @@ Depanelizing went quite ok. I have never designed boards with panelizing, but it
 I already started soldering of the first board - RF24VUsb Mini. I'll write a separate post about that, for now just a picture:
 ![RF24VUSB mini]({{ site.url }}/assets/RF24VUSB_mini.jpg "RF24VUSB mini")
 
-What I can write already now is that I made 2 flaws to design. Bad point is that flaws hit almost all boards. Good is that they are not fatal:
+I can confess already now that I made 2 errors to board's design. Bad point is that they hit almost all boards. Good is that they are not fatal:
 
 * for USB-A I used a footprint which I found somewhere on internet. Unfortunately pins are mirrored. My bad, I should have checked it. This is easily fixable by soldering if the USB connector to the other side. Not a big deal.
 * I used bad pinout for 3.3V regulator. Input and output are reversed. For fixing this I needed to be a bit more creative when soldering the regulator. But finally also success.
