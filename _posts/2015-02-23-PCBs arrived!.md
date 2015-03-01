@@ -26,7 +26,7 @@ Recently I've spend my free time working on [RF24Remote](https://github.com/mz-f
 Depanelizing went quite ok. I have never designed boards with panelizing, but it went fine. No problems with board breaking, just used pliers. After that I sanded boards a bit.
 
 I already started soldering of the first board - RF24VUsb Mini. I'll write a separate post about that, for now just a picture:
-![RF24VUSB mini]({{ site.url }}/assets/RF24VUSB_mini.jpg "RF24VUSB mini")
+![RF24VUSB mini]({{ site.url }}/assets/rf24vusb_mini/RF24VUSB_mini.jpg "RF24VUSB mini")
 
 I can confess already now that I made 2 errors to board's design. Bad point is that they hit almost all boards. Good is that they are not fatal:
 
