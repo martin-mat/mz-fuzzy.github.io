@@ -30,7 +30,7 @@ PCB:
 ![RF24 Micro Pro PCB]({{ site.url }}/assets/rf24_micro_pro/RF24_Micro_Pro_PCB.png "RF24 Micro Pro PCB")
 
 PCB after de-panelizing:
-![RF24 Micro Pro PCB photo]({{ site.url }}/assets/rf24_micro_pro/RF24_Micro_Pro_pcb.jpg "RF24 Micro Pro PCB photo")
+![RF24 Micro Pro PCB photo]({{ site.url }}/assets/rf24_micro_pro/RF24_Micro_Pro_PCB.jpg "RF24 Micro Pro PCB photo")
 
 The board after soldering of all components:
 ![RF24 Micro Pro empty]({{ site.url }}/assets/rf24_micro_pro/RF24_Micro_Pro_empty.jpg "RF24 Micro Pro empty")
