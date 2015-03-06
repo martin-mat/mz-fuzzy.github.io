@@ -24,7 +24,7 @@ Additional notes to the design:
 
 
 Schematics:
-![RF24 Micro Pro schematics]({{ site.url }}/assets/rf24_micro_pro/rf24_micro_pro_scheme.png "RF24 micro pro scheme")
+[![RF24 Micro Pro schematics]({{ site.url }}/assets/rf24_micro_pro/rf24_micro_pro_scheme.png "RF24 micro pro scheme")]({{ site.url }}/assets/rf24_micro_pro/rf24_micro_pro_scheme.png)
 
 PCB:
 ![RF24 Micro Pro PCB]({{ site.url }}/assets/rf24_micro_pro/RF24_Micro_Pro_PCB.png "RF24 Micro Pro PCB")
