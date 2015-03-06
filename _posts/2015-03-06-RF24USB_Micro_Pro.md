@@ -3,21 +3,25 @@ layout: post
 title: RF24USB Micro Pro board
 ---
 
-RF24 Micro Pro board is a plug-in board as a base for Arduino Micro Pro. This Arduino is not that much known, but for some purposes it's cool.
-Shortly: it has ATMega32u8 controller with USB support, similarly as Arduino Leonardo. You can find it in 5V/16MHz and 3.3V/8MHz variants.
-It's a smallest Arduino I've seen, maybe together with Arduino Pro Mini. But unlike Pro Mini, one can upload firmware using bootloader there. And, the MCU supports USB, so it can be used for USB-related projects. And that's one of reasons why I've choosen that.
+RF24 Micro Pro board is a plug-in board as a base for [Pro Micro](https://www.sparkfun.com/products/12640). It is not an official Arduino board, but for some purposes it's cool.
+Shortly: it has ATMega32u4 controller with USB support, similarly as Arduino Leonardo. You can find it in 5V/16MHz and 3.3V/8MHz variants.
+It's as small as Arduino Pro Mini. But unlike Pro Mini, one can upload firmware using bootloader there. And, the MCU supports USB, so it can be used for USB-related projects. And that's main reasons why I've choosen that.
+
 
 More details to the board: the idea is to make a small board with possibility to connect NRF modules. And when I say modules, I mean multiple of them :-)
 So I there is possible to connect 2 modules simultaneously. Not only that, you can also choose whether to attach 8-pin or 10-pin NRF modules.
 Modules are attached to SPI as usual, and pins CE, CSN and IRQ are attached to separate pins for each radio - see schematics. Usage of twin radios - this is a bit bookmark for future. Maybe one can try to use dual-head configuration with RF24Network.
 
+
 Additional notes to the design:
-* 3v3 regulator - Arduino Micro Pro does not have one, so I had to add it
-* 10uF capacitor for radio power/ground stabilizing
-* jumper to bypass 3v3 regulator. This is for the case 3v3 Arduino Micro Pro is attached
-* FTDI header
-* ICSP header
-* there are couple of connectors for all Arduino pins so they can be further used
+
+ * 3v3 regulator - Arduino Micro Pro does not have one, so I had to add it
+ * 10uF capacitor for radio power/ground stabilizing
+ * jumper to bypass 3v3 regulator. This is for the case 3v3 Arduino Micro Pro is attached
+ * FTDI header
+ * ICSP header
+ * there is a couple of 12-pin connectors for all Arduino pins so they can be further used
+
 
 Schematics:
 ![RF24 Micro Pro schematics]({{ site.url }}/assets/rf24_micro_pro/rf24_micro_pro_scheme.png "RF24 micro pro scheme")
